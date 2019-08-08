@@ -1,0 +1,43 @@
+ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            margin: 0 3px 3px 3px;
+            padding: 0.5em;
+            font-size: 1.2em;
+            height: 20px;
+        }
+
+        li span {
+            font-size: 0.8em;
+            border: 1px solid black;
+            padding: 0 6px;
+            display: inline-block;
+        }
+
+        .btn {
+            border: 1px solid black;
+            padding: 5px;
+            display: inline-block
+        }
+
+        .editBtn {
+            width: 100px;
+            text-align: center;
+            border: 1px solid black;
+            padding: 5px;
+            display: none;
+        }
+
+        .viewLink a {
+            text-decoration: none;
+        }
+
+        #myForm {
+            padding: 20px;
+            margin-top: 20px;
+            background-color: #ddd;
+        }
